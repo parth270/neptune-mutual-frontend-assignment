@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Archivo+Narrow&family=Archivo:ital,wght@0,700;1,600&family=Indie+Flower&family=Josefin+Sans:wght@200;300;400;600;700&family=Mochiy+Pop+P+One&family=Permanent+Marker&family=Road+Rage&family=Shadows+Into+Light&display=swap');
+
+.title{
+    margin:0 0 10px 0;
+    text-align: center;
+    font-size:32px;
+    /* background-color:#000;
+    color:#fff; */
+    padding:50px 0 15px 0;
+    border-radius: 5px 5px 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input-container{
+    width:100%;
+    padding:0 10%;
+    margin:20px 0;       
+    min-height:30px;
+    
+}
+.input-container label{
+    font-size:18px;
+    font-weight:600;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input-container input{
+    width:100%;
+    margin-top:7px;
+    border:1px solid #ccc;
+    height:24px;
+    border-radius:6px;
+    padding:4px 2%;
+    font-size:16px;
+    font-family: 'Archivo', sans-serif;
+}
+
+
+.input-container input:focus{
+    outline:none;
+}
+
+.margin{
+    width: 100%;
+    height:10px;
+}
+
+.currency{
+    font-family: 'Archivo', sans-serif;
+    font-style: italic;
+    text-align:end;
+    width:90%;
+    font-size:14px
+}
+
+.wallet{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Archivo', sans-serif;
+    color:#377ec3
+}
+
+.wallet:hover{
+    text-decoration:underline;
+}
+
+.wallet span{
+    cursor:pointer
+}
